@@ -1,0 +1,80 @@
+.similar-articles li {
+    margin-bottom: 20px;
+}
+
+#sub_alert {
+    display: none;
+}
+
+/*.main {*/
+/*    width: 600px;*/
+/*    margin: 0 auto;*/
+/*}*/
+
+/*.main-image {*/
+/*    width: 300px;*/
+/*    !*border: 10px solid #c00;*!*/
+/*    !*padding: 20px;*!*/
+/*    !*margin: 30px;*!*/
+/*    !*background: darkgray;*!*/
+/*}*/
+
+/*p span {*/
+/*    color: #c00;*/
+/*}*/
+
+/*b ~ i {*/
+/*    color: #c0c;*/
+/*}*/
+
+/*b + i {*/
+/*    color: #00C;*/
+/*}*/
+
+/*div ~ p {*/
+/*    font-weight: bold;*/
+/*}*/
+
+/*.test-link {*/
+/*    color: orange;*/
+/*    text-decoration: none;*/
+/*}*/
+
+/*.test-link:hover {*/
+/*    color: green;*/
+/*    text-decoration: underline;*/
+/*}*/
+
+/*.a-like-button {*/
+/*    background: blue;*/
+/*    color: white;*/
+/*    text-decoration: none;*/
+/*    height: 40px;*/
+/*    width: 100%;*/
+/*    border-radius: 5px;*/
+/*    text-align: center;*/
+/*    display: block;*/
+/*    line-height: 40px;*/
+/*}*/
+
+/*.test-position {*/
+/*    background: #1c7430;*/
+/*    height: 300px;*/
+/*    position: relative;*/
+/*    z-index: 1;*/
+/*}*/
+/*.test-position span {*/
+/*    position: absolute;*/
+/*    right: 10px;*/
+/*    top: 10px;*/
+/*    background: white;*/
+/*    padding: 20px;*/
+/*    z-index: 3;*/
+/*}*/
+
+/*.test-position span.on-top {*/
+/*    background: #0f6674;*/
+/*    right: 30px;*/
+/*    top: 30px;*/
+/*    z-index: 2;*/
+/*}*/
