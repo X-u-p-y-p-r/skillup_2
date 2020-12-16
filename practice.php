@@ -130,17 +130,45 @@ function clearName($str) {
 echo clearName('');
 */
 
-function makeArr($str) {
+//function makeArr($str) {
+//
+////    preg_match_all("/[а-я][a-z][0-9]/ui", $str, $m);
+//    preg_match_all("/[а-яА-Я]+|[a-zA-Z]+|[0-9]+/u", $str, $m);
+//
+//    if(isset($m[0])) {
+//        return
+//    }
+//
+////    return isset($m[0]) ? $m[0] :[];
+//    return isset($m[0]) ?? [];
+//}
+//
+//var_dump(makeArr('ШезлонгKINGCAMP KC3902'));
 
-//    preg_match_all("/[а-я][a-z][0-9]/ui", $str, $m);
-    preg_match_all("/[а-яА-Я]+|[a-zA-Z]+|[0-9]+/u", $str, $m);
+/*
+// телефоны
+function niceNumber($number, $str1, $str24, $str59) {
 
-    if(isset($m[0])) {
-        return
+    $dcat_number = $number%100;
+    if($dcat_number >= 11 && $dcat_number <= 19) {
+        $strFinal = $str59;
+    } else  {
+        $last_number = $number%10;
+
+        switch ($last_number) {
+            case 1 : $strFinal = $str1; break;
+            case 2 :
+            case 3 :
+            case 4 : $strFinal = $str24; break;
+            default : $strFinal = $str59; break;
+        }
+
     }
 
-//    return isset($m[0]) ? $m[0] :[];
-    return isset($m[0]) ?? [];
+    return $number . ' ' . $strFinal;
+
 }
 
-var_dump(makeArr('ШезлонгKINGCAMP KC3902'));
+echo niceNumber(1112, 'телефон', 'телефона', 'телефонов');
+*/
+
