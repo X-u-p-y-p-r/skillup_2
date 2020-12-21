@@ -15,6 +15,8 @@ header('Content-Type: text/csv');
 header('Content-Disposition: attachment; filename=file.csv');
 $out = fopen('php://output', 'w');
 
+fputcsv($out, array_keys($arData[0]));
+
 foreach ($arData as $line) {
     fputcsv($out, $line);
 }
